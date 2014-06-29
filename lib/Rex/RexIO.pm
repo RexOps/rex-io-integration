@@ -12,6 +12,8 @@ use Carp;
 require Rex::Commands;
 use Data::Dumper;
 
+our $VERSION = '0.46.0';
+
 Rex::Config->set_cache_type("RexIO");
 
 Rex::Config->register_set_handler(

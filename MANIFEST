@@ -1,0 +1,6 @@
+lib/Rex/Interface/Cache/RexIO.pm
+lib/Rex/RexIO.pm
+Makefile.PL
+MANIFEST			This list of files
+README.md
+Rex-IO-Integration-0.46.0.tar.gz

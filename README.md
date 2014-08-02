@@ -24,9 +24,9 @@ To use Rex.IO integration within your Rexfile you have to configure it.
 use Rex::RexIO;
 
 set rexio => {
-  rexio_server   => 'https://your-rexio-server:5000',
-  rexio_user     => 'the-user',
-  rexio_password => 'the-password',
+  server   => 'https://your-rexio-server:5000',
+  user     => 'the-user',
+  password => 'the-password',
 };
 ```
 

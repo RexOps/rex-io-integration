@@ -144,7 +144,7 @@ sub save {
   my @cpus;
 
   for my $cpu ( @{ $inv_data->{cpus} } ) {
-    my ($speed) = ( $cpu->{max_speed} =~ m/(\d+)/ );
+    my ($speed) = ( exists $cpu->{max_speed} ? $cpu->{max_speed} =~ m/(\d+)/ : 0 );
     push @cpus,
       {
       modelname => $cpu->{family} || '',

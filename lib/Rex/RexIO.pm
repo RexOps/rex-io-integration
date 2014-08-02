@@ -23,7 +23,6 @@ Rex::Config->register_set_handler(
     confess "No server given."   if !exists $data->{server};
     confess "No user given."     if !exists $data->{user};
     confess "No password given." if !exists $data->{password};
-
     Rex::Config->set( "rexio_server",   $data->{server} );
     Rex::Config->set( "rexio_user",     $data->{user} );
     Rex::Config->set( "rexio_password", $data->{password} );
